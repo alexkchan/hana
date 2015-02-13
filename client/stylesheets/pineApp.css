@@ -57,5 +57,37 @@ a.blueResponsive, .blueResponsive:hover{
 font-size:20px;
 }
 
+a#signup-link.pull-right{
+  text-align: center;
+margin-top:5px;
+padding:6px 12px;
+font-size:14px;
+border-radius:4px;
+width:100%;
+display:block;
+color:#fff;
+border-color:#4cae4c;
+background:#4cae4c;
+text-decoration: none
+}
+
+
+a#signup-link.pull-right:hover{
+    text-align: center;
+  margin-top:5px;
+padding:6px 12px;
+font-size:14px;
+border-radius:4px;
+width:100%;
+display:block;
+background:#389438;
+border-color:#389438;
+color:#fff;
+text-decoration: none
+
+}
+
+
+
 
 
