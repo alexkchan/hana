@@ -33,6 +33,8 @@ Template.postsList.helpers({
   },
 
   numPosts: function(){
+
+    // return Meteor.call('postCount');
     return Posts.find().count();
   }
 
