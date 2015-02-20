@@ -19,9 +19,10 @@ Template.postEdit.events({
     
     var postProperties = {
       url: $(e.target).find('[name=url]').val(),
-      title: $(e.target).find('[name=title]').val()
+      title: $(e.target).find('[name=title]').val(),
+      description: $(e.target).find('[name=description]').val()
     }
-    
+
     var errors = validatePost(postProperties);
     if (errors.title || errors.url)
       return Session.set('postEditErrors', errors);
@@ -42,7 +43,7 @@ Template.postEdit.events({
     if (confirm("Delete this post?")) {
       var currentPostId = this._id;
       Posts.remove(currentPostId);
-      Router.go('home');
+      Router.go('/new');
     }
   }
 });

@@ -3,7 +3,7 @@ Meteor.publish('posts', function(options) {
     sort: Object,
     limit: Number
   });
-  return Posts.find({}, options);
+  return Posts.find({userId :this.userId}, options);
 });
 
 Meteor.publish('singlePost', function(id) {
