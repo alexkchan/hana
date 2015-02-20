@@ -193,6 +193,7 @@ body {
 .wellnessIndex{
   padding: 2%;
   text-align:center;
+<<<<<<< HEAD
   background:#33ADFF;
   color:white;
   font-family: Bebas;
@@ -202,3 +203,23 @@ html{
   overflow:auto;
 }
 
+=======
+  background:white;
+}
+
+
+
+.html{
+overflow:auto;
+}
+#html{
+overflow:auto;
+}
+html{
+overflow:auto;
+}
+
+
+
+
+>>>>>>> ad2e223e776fe460207c15abea7255cbed23d367
