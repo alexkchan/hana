@@ -71,27 +71,6 @@ background:#4cae4c;
 text-decoration: none
 }
 
-<<<<<<< HEAD
-=======
-
-a#signup-link.pull-right:hover{
-    text-align: center;
-  margin-top:5px;
-padding:6px 12px;
-font-size:14px;
-border-radius:4px;
-width:100%;
-display:block;
-background:#389438;
-border-color:#389438;
-color:#fff;
-text-decoration: none
-
-}
-
-
-
->>>>>>> ad2e223e776fe460207c15abea7255cbed23d367
 
 a#signup-link.pull-right:hover{
     text-align: center;

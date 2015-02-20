@@ -1,10 +1,7 @@
 Template.home.helpers({ 
 
-<<<<<<< HEAD
   //MOVED SCRIPT TO BOTTOM OF HOME.HTML (PATH ISSUES)
 
-=======
->>>>>>> ad2e223e776fe460207c15abea7255cbed23d367
   // addPost: function()
   // {
   //   var post = {
