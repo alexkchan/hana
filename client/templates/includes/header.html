@@ -17,13 +17,13 @@
           </li> -->
           {{#if currentUser}}
           <li class="{{activeRouteClass 'newPosts'}}">
-            <a href="{{pathFor 'newPosts'}}">Happiness</a>
+            <a href="{{pathFor 'newPosts'}}">Challenge Report</a>
           </li>
             <li class="{{activeRouteClass 'postSubmit'}}">
-              <a href="{{pathFor 'postSubmit'}}">Add A Chalenge</a>
+              <a href="{{pathFor 'postSubmit'}}">Add A Challenge</a>
             </li>
             <li class="{{activeRouteClass 'addChallenge'}}">
-              <a href="{{pathFor 'addChallenge'}}">Inspiration</a>
+              <a href="{{pathFor 'addChallenge'}}">Challenge Inspirations</a>
             </li>
             <li class="dropdown">
               {{> notifications}}
