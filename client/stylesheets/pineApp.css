@@ -87,3 +87,12 @@ text-decoration: none
 
 }
 
+  .fullBackground{
+        background: url(img/bg1.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+     }
+
+     .cursorDefault{cursor:default;}

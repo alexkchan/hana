@@ -1,5 +1,5 @@
 <template name="header">
-  <nav class="navbar navbar-default" role="navigation" style="margin-bottom:0px; padding-top:2px;padding-bottom:2px;background:#222">
+  <nav class="navbar navbar-default navbar navbar-fixed-top" role="navigation" style="margin-bottom:0px; padding-top:2px;padding-bottom:2px;background:#222; border-radius:0px">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
@@ -10,8 +10,8 @@
         </button>
         <a class="navbar-brand" href="{{pathFor 'home'}}">Hana</a>
       </div>
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="nav navbar-nav">
+      <div class="collapse navbar-collapse" id="navigation" >
+        <ul class="nav navbar-nav" >
 <!--           <li class="{{activeRouteClass  'bestPosts'}}">
             <a href="{{pathFor 'bestPosts'}}">Best</a>
           </li> -->
